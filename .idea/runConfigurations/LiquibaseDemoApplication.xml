@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LiquibaseDemoApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.codingworld.liquibasedemo.LiquibaseDemoApplication" />
+    <module name="liquibase-demo" />
+    <option name="PROGRAM_PARAMETERS" value="--spring.config.location=C:\Users\ragrajam\Downloads\app-config.properties -author=sharon2 -id=721 -sqlPath=C:\\Users\\ragrajam\\Downloads\\sqlQuery.sql" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.codingworld.liquibasedemo.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

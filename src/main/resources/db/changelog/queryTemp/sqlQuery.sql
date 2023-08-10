@@ -1,0 +1,1 @@
+insert into authors (id,name,age) values(146,'Sharon',12);

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    #set($dynamicAuthor = "$dynamicAuthor")  ## Set your dynamic author value
+    #set($dynamicId = "$id")          ## Set your dynamic id value
+    #set($sqlPath = "$sqlPath")          ## Set your dynamic sqlPath value
+    <changeSet id="$dynamicId" author="$dynamicAuthor">
+       ##<sqlFile path="$sqlPath" relativeToChangelogFile="false"/>
+       <sqlFile path="$sqlPath" relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>
